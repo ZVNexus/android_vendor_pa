@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    }
+]

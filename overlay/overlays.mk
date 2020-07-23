@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     NavigationBarModeGesturalOverlayNoPillNarrowBack \
     NavigationBarModeGesturalOverlayNoPillWideBack \
     NavigationBarModeGesturalOverlayNoPillExtraWideBack \
+    ParanoidCameraOverlay \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
     ParanoidLauncherOverlay

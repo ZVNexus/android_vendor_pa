@@ -1,24 +1,6 @@
 [
   {
     "remote":       "aospa",
-    "repository":   "AOSPA/android_device_essential_mata",
-    "target_path":  "device/essential/mata",
-    "revision":     "quartz"
-  },
-  {
-    "remote":       "aospa",
-    "repository":   "AOSPA/android_kernel_essential_msm8998",
-    "target_path":  "kernel/essential/msm8998",
-    "revision":     "quartz"
-  },
-  {
-    "remote":       "blobs",
-    "repository":   "proprietary_vendor_essential",
-    "target_path":  "vendor/essential",
-    "revision":     "quartz"
-  },
-  {
-    "remote":       "aospa",
     "repository":   "AOSPA/android_packages_apps_Bluetooth",
     "target_path":  "packages/apps/Bluetooth",
     "revision":     "quartz-dev"

@@ -26,7 +26,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
 # Fingerprint
+ifeq ($(TARGET_BUILD_VARIANT),user)
 BUILD_FINGERPRINT ?= google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+endif
 
 # Gestures
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)

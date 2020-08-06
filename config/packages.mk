@@ -48,13 +48,9 @@ endif
 
 PRODUCT_PACKAGES += \
     Longshot \
+    ParanoidHub \
     ParanoidPapers \
     ParanoidQuickStep
-
-ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
-    PRODUCT_PACKAGES += \
-    ParanoidHub
-endif
 
 # Face Sense
 TARGET_ENABLE_FACE_SENSE := true
